@@ -1,0 +1,16 @@
+/* frontend/src/components/cards/CardStyles.css */
+
+.card {
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.card-body {
+  text-align: center;
+}

@@ -1,0 +1,124 @@
+/* src/index.css */
+
+/* GLOBAL STYLES */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa; /* light gray background */
+  margin: 0;
+  padding: 0;
+  color: #212529;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #0d6efd; /* Bootstrap primary color */
+}
+
+/* Cards */
+.card {
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Sidebar */
+.sidebar {
+  min-height: 100vh;
+  background-color: #343a40;
+  color: #ffffff;
+}
+
+.sidebar a {
+  display: block;
+  padding: 0.75rem 1rem;
+  color: #ffffff;
+}
+
+.sidebar a:hover {
+  background-color: #495057;
+  color: #ffffff;
+  border-radius: 0.5rem;
+}
+
+/* Navbar */
+.navbar-custom {
+  background-color: #ffffff;
+  border-bottom: 1px solid #dee2e6;
+  padding: 0.5rem 1rem;
+}
+
+.navbar-custom .navbar-brand {
+  font-weight: bold;
+  color: #0d6efd;
+}
+
+.navbar-custom .nav-link {
+  color: #212529;
+}
+
+.navbar-custom .nav-link:hover {
+  color: #0d6efd;
+}
+
+/* Buttons */
+.btn-custom {
+  background-color: #0d6efd;
+  color: #ffffff;
+  border-radius: 0.5rem;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.btn-custom:hover {
+  background-color: #0b5ed7;
+  color: #ffffff;
+}
+
+/* Charts Container */
+.chart-container {
+  background-color: #ffffff;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  margin-bottom: 1.5rem;
+}
+
+/* Prediction Card */
+.prediction-card {
+  background-color: #e7f1ff;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Forms */
+.form-control-custom {
+  border-radius: 0.5rem;
+  border: 1px solid #ced4da;
+  padding: 0.5rem 0.75rem;
+}
+
+.form-control-custom:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
+
+/* Responsive utilities */
+@media (max-width: 768px) {
+  .sidebar {
+    min-height: auto;
+  }
+  .chart-container {
+    padding: 0.5rem;
+  }
+}
